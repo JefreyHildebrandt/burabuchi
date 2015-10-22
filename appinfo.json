@@ -1,0 +1,526 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "jefreyhildebrandt@gmail.com",
+    "longName": "Burabuchi",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/success5.png",
+                "name": "SUCCESS_FIVE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/success4.png",
+                "name": "SUCCESS_FOUR",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/success3.png",
+                "name": "SUCCESS_THREE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/success2.png",
+                "name": "SUCCESS_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/success0.png",
+                "name": "SUCCESS_ZERO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/fixedlightbulb.png",
+                "name": "FIXED_LIGHTBULB",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/lightbulb2.png",
+                "name": "LIGHTBULB_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/lightbulb1.png",
+                "name": "LIGHTBULB_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/success1.png",
+                "name": "SUCCESS_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/curtain2.png",
+                "name": "CURTAIN_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/curtain1.png",
+                "name": "CURTAIN_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-3-3-2.png",
+                "name": "END_GOOD_GOOD_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-3-3-1.png",
+                "name": "END_GOOD_GOOD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-3-2-2.png",
+                "name": "END_GOOD_MID_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-3-2-1.png",
+                "name": "END_GOOD_MID_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-3-1-2.png",
+                "name": "END_GOOD_BAD_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-3-1-1.png",
+                "name": "END_GOOD_BAD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-1-3-2.png",
+                "name": "END_BAD_GOOD_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-1-3-1.png",
+                "name": "END_BAD_GOOD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-1-2-2.png",
+                "name": "END_BAD_MID_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-1-2-1.png",
+                "name": "END_BAD_MID_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-2-3-2.png",
+                "name": "END_MID_GOOD_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-2-3-1.png",
+                "name": "END_MID_GOOD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-2-2-2.png",
+                "name": "END_MID_MID_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-2-2-1.png",
+                "name": "END_MID_MID_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-2-1-2.png",
+                "name": "END_MID_BAD_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/3-2-1-1.png",
+                "name": "END_MID_BAD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/2-3-2.png",
+                "name": "MID_GOOD_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/2-3-1.png",
+                "name": "MID_GOOD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/2-2-2.png",
+                "name": "MID_MID_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/2-2-1.png",
+                "name": "MID_MID_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/ghostpoop2.png",
+                "name": "GHOST_POOP_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/ghostpoop1.png",
+                "name": "GHOST_POOP_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/halo.png",
+                "name": "HALO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/weights.png",
+                "name": "WEIGHTS_SPLASH",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/shot3.png",
+                "name": "SHOT_THREE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/shot2.png",
+                "name": "SHOT_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/shot1.png",
+                "name": "SHOT_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/flush_splash.png",
+                "name": "FLUSH_SPLASH",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/food3.png",
+                "name": "HUNGER_SPLASH_THREE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/food2.png",
+                "name": "HUNGER_SPLASH_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/food1.png",
+                "name": "HUNGER_SPLASH_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/hunger2.png",
+                "name": "HUNGER_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/hunger1.png",
+                "name": "HUNGER_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/sleep2.png",
+                "name": "SLEEP_TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/sleep1.png",
+                "name": "SLEEP_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/sickness.png",
+                "name": "SICKNESS",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/poop2.png",
+                "name": "POOP_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/poop1.png",
+                "name": "POOP_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/1-2.png",
+                "name": "STARTER_TWO",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/1-1.png",
+                "menuIcon": true,
+                "name": "STARTER_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/background.png",
+                "name": "BACKGROUND_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/4-1-2.png",
+                "name": "DEAD_BAD_TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/4-1-1.png",
+                "name": "DEAD_BAD_ONE",
+                "type": "png"
+            },
+            {
+                "file": "images/3-1-2.png",
+                "name": "END_BAD_BAD_TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/3-1-1.png",
+                "name": "END_BAD_BAD_ONE",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/2-1-2.png",
+                "name": "MID_BAD_TWO",
+                "type": "png"
+            },
+            {
+                "file": "images/2-1-1.png",
+                "name": "MID_BAD_ONE",
+                "type": "png"
+            },
+            {
+                "file": "images/sleep.png",
+                "name": "SLEEP_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/settings.png",
+                "name": "SETTINGS_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/medicine.png",
+                "name": "MEDICINE_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/highlight.png",
+                "name": "HIGHLIGHT_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/hunger.png",
+                "name": "HUNGER_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/exercise.png",
+                "name": "EXERCISE_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/flush.png",
+                "name": "FLUSH_IMG",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Burabuchi",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "6236a072-58b1-4db4-93a9-7cdefddcb7c7",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
