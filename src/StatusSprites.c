@@ -88,7 +88,6 @@ StatusSprites* status_sprites_create()
 
 void status_sprites_draw(StatusSprites* stat_sprites, GContext *ctx, bool update_sprite, PetSprite *pet)
 {
-  APP_LOG(APP_LOG_LEVEL_DEBUG, "HERE");
   graphics_context_set_compositing_mode(ctx, GCompOpSet);
   if(stats_is_asleep())
   {

@@ -41,9 +41,11 @@ void stats_new_tic(bool loop, PetSprite *pet, StatusSprites *stat_sprites)
   }
   
   int sleep_multiplier = 1;
-  if(persist_read_bool(SLEEP_STATUS_KEY))
+  bool is_sleep = persist_read_bool(SLEEP_STATUS_KEY);
+  if(is_sleep)
   {
     APP_LOG(APP_LOG_LEVEL_DEBUG, "SLEEP MULTIPLIER ACTIVATE");
+    int temp = persist_read_int(SLEEP_TICS_EVOLVE_EXTEND);
     sleep_multiplier = SLEEP_MULTIPLIER;
   }
   
@@ -56,7 +58,9 @@ void stats_new_tic(bool loop, PetSprite *pet, StatusSprites *stat_sprites)
   int average = persist_read_int(TOTAL_STATS_KEY);
   int current_sprite_num = persist_read_int(CURRENT_SPRITE_KEY);
   bool evolved = false;
+  int sleep_extra = persist_read_int(SLEEP_TICS_EVOLVE_EXTEND);
   
+  //persist_write_int(SLEEP_TICS_EVOLVE_EXTEND, persist_read_int(SLEEP_TICS_EVOLVE_EXTEND) + 1);
 /////////////////////////////////////////////////////TESTCODE//////////////////////
 //   int current_pet_num = current_sprite_num;
 //   if(current_pet_num == STARTER)
@@ -139,14 +143,18 @@ void stats_new_tic(bool loop, PetSprite *pet, StatusSprites *stat_sprites)
   for(int i=0; i<tic_loop; i++)
   {
     
-      total_tics++;
-
-
+    total_tics++;
+    //adds time to evolve if the pet is asleep
+    if(is_sleep)
+    {
+      sleep_extra++;
+    }
     //   TOTAL_STATS_KEY
     average += (happy+hunger+active+hygiene)/4;
     if(!evolved)
     {
-      evolved = stats_evolve(total_tics, current_sprite_num, average, pet, stat_sprites);
+      int evolve_time = sleep_extra/2;
+      evolved = stats_evolve(total_tics - evolve_time, current_sprite_num, average, pet, stat_sprites);
       
       if(evolved)
       {
@@ -193,6 +201,7 @@ void stats_new_tic(bool loop, PetSprite *pet, StatusSprites *stat_sprites)
   }
   
   persist_write_int(TOTAL_TICS_KEY, total_tics);
+  persist_write_int(SLEEP_TICS_EVOLVE_EXTEND, sleep_extra);
   
   persist_write_int(HAPPINESS_LEVEL_KEY, happy);
   persist_write_int(HUNGER_LEVEL_KEY, hunger);
@@ -396,6 +405,7 @@ void stats_start_database(PetSprite *pet)
     persist_write_int(TIME_LAST_TIC_KEY, time(NULL));
     persist_write_int(TOTAL_STATS_KEY, 0);
     persist_write_int(TOTAL_TICS_KEY, 0);
+    persist_write_int(SLEEP_TICS_EVOLVE_EXTEND, 0);
     
     persist_write_int(HAPPINESS_LEVEL_KEY, STAT_FIELD_MAX);
     persist_write_int(HUNGER_LEVEL_KEY, STAT_FIELD_MAX/2);
